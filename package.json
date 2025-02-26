@@ -1,9 +1,8 @@
 {
-  "name": "figma-accessibility-proxy",
+  "name": "a11y-amber",
   "version": "1.0.0",
   "description": "Proxy para JSON de accesibilidad en Figma",
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
 }
-
