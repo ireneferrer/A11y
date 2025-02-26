@@ -2,13 +2,8 @@
   "name": "figma-accessibility-proxy",
   "version": "1.0.0",
   "description": "Proxy para JSON de accesibilidad en Figma",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "express": "^4.17.1",
-    "cors": "^2.8.5",
     "node-fetch": "^2.6.1"
   }
 }
+
