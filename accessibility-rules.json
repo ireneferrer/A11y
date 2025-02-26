@@ -1,5 +1,4 @@
-{
-    "Primary": {
+"Primary": {
         "aria-label": "Guardar perfil",
         "role": "button",
         "description": "Botón primario con acción específica. El aria-label debe ser descriptivo en función del contexto para cumplir con AA."
@@ -16,8 +15,7 @@
     },
     "logo": {
         "aria-label": "{{brandName}}",
-          "description": "Este componente representa el logotipo de la marca. Se usa aria-label para que los lectores de pantalla anuncien directamente el nombre de la marca sin precederlo con la palabra 'imagen'. No se define role='img' para evitar que el lector de pantalla añada información innecesaria. '{{brandName}}' es una variable dinámica que será reemplazada por el nombre real de la marca."
-        }
+        "description": "Este componente representa el logotipo de la marca. Se usa aria-label para que los lectores de pantalla anuncien directamente el nombre de la marca sin precederlo con la palabra 'imagen'. No se define role='img' para evitar que el lector de pantalla añada información innecesaria. '{{brandName}}' es una variable dinámica que será reemplazada por el nombre real de la marca."
     },
     "H2": {
         "aria-label": "Título de sección",
@@ -36,4 +34,5 @@
         "description": "Este bloque contiene un título (H2) y texto plano. El orden de lectura debe ser primero el H2 y luego el contenido. Si no se mantiene este orden, debe documentarse una alternativa accesible."
     }
 }
+
 
