@@ -1,0 +1,39 @@
+{
+    "Primary": {
+        "aria-label": "Guardar perfil",
+        "role": "button",
+        "description": "Botón primario con acción específica. El aria-label debe ser descriptivo en función del contexto para cumplir con AA."
+    },
+    "Secondary": {
+        "aria-label": "Guardar perfil",
+        "role": "button",
+        "description": "Botón secundario. Misma estructura que el primario, pero con cambios de estilo. El aria-label debe seguir siendo descriptivo."
+    },
+    "Disabled": {
+        "aria-label": "Guardar perfil (deshabilitado)",
+        "role": "button",
+        "description": "Botón deshabilitado. Se recomienda informar al usuario de que la acción no está disponible."
+    },
+    "logo": {
+        "aria-label": "{{brandName}}",
+          "description": "Este componente representa el logotipo de la marca. Se usa aria-label para que los lectores de pantalla anuncien directamente el nombre de la marca sin precederlo con la palabra 'imagen'. No se define role='img' para evitar que el lector de pantalla añada información innecesaria. '{{brandName}}' es una variable dinámica que será reemplazada por el nombre real de la marca."
+        }
+    },
+    "H2": {
+        "aria-label": "Título de sección",
+        "role": "heading",
+        "level": "h2",
+        "description": "Encabezado de nivel 2. Debe usarse dentro de una jerarquía clara para navegación accesible."
+    },
+    "Texto": {
+        "aria-label": "",
+        "role": "paragraph",
+        "description": "Texto plano sin estructura especial. Se usará con el elemento <p>."
+    },
+    "Bloquetexto": {
+        "aria-label": "Bloque de texto",
+        "role": "group",
+        "description": "Este bloque contiene un título (H2) y texto plano. El orden de lectura debe ser primero el H2 y luego el contenido. Si no se mantiene este orden, debe documentarse una alternativa accesible."
+    }
+}
+
