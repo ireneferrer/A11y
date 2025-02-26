@@ -1,5 +1,5 @@
 {
-  "name": "a11y-amber-eight",
+  "name": "a11y-amber",
   "version": "1.0.0",
   "description": "Proxy para JSON de accesibilidad en Figma",
   "dependencies": {
