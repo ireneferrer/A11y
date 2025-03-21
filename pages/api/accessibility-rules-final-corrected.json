@@ -362,6 +362,6 @@
   "loginOidc": {
     "role": "No aplica",
     "aria-label": "H1 debe ser: En la página de acceso al servicio",
-    "description": "Página promocional previa a la introducción de credenciales o loginUserPassword. Orden del foco natural. 1- 'Header' LogoContainer contiene el H1. 2- 'Slideshow'. Contiene un H2. 3- 'BottomGroup'. Agrupación de botón y texto legal."
+    "description": "Página promocional previa a la introducción de credenciales o loginUserPassword.\nOrden del foco natural.\n1- 'Header' LogoContainer contiene el H1.\n2- 'Slideshow'.\nContiene un H2.\n3- 'BottomGroup'.\nAgrupación de botón y texto legal."
   }
 }
