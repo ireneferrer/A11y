@@ -360,8 +360,8 @@
     "description": "Permite cerrar el reproductor. En otros contextos, 'Cerrar' debe ir acompañado de la acción contextual, como cerrar un modal o un elemento emergente."
   },
   "loginOidc": {
-    "role": "No aplica",
-    "aria-label": "No aplica",
+    "role": "N/A",
+    "aria-label": "N/A",
     "description": "H1 debe ser: En la página de acceso al servicio.\nOrden del foco natural.\n1- 'Header' LogoContainer contiene el H1.\n2- 'Slideshow'.\nContiene un H2.\n3- 'BottomGroup'.\nAgrupación de botón y texto legal."
   }
 }
