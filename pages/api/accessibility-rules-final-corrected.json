@@ -362,6 +362,6 @@
   "loginOidc": {
     "role": "N/A",
     "aria-label": "N/A",
-    "description": "H1 debe ser: En la página de acceso al servicio.\nOrden del foco natural.\n1- 'Header' LogoContainer contiene el H1.\n2- 'Slideshow'.\nContiene un H2.\n3- 'BottomGroup'.\nAgrupación de botón y texto legal."
+    "description": "H1 debe ser: En la página de acceso al servicio.\nOrden del foco natural.\n1- 'Header' LogoContainer.\n2- 'Slideshow'.\nContiene un H2.\n3- 'BottomGroup'.\nAgrupación de botón y texto legal."
   }
 }
