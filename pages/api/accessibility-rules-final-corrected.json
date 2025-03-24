@@ -2,17 +2,17 @@
   "NavBar/Header": {
     "role": "banner",
     "aria-label": "No aplica",
-    "description": "Este es el contenedor principal de la cabecera de la página. Debe contener un encabezado 'h1' visible y claramente definido."
+    "description": "Este es el contenedor principal de la cabecera de la página.\nDebe contener un encabezado 'H1' visible y claramente definido."
   },
   "FolderDefault": {
     "role": "combobox",
     "aria-label": "labelText",
-    "description": "Muestra 'labelText' como etiqueta. Usa 'aria-expanded' (true/false) para indicar si el menú está abierto o cerrado. Añade 'aria-controls' referenciando al menú desplegable."
+    "description": "Muestra 'labelText' como etiqueta.\nUsa 'aria-expanded' (true/false) para indicar si el menú está abierto o cerrado.\nAñade 'aria-controls' referenciando al menú desplegable."
   },
   "NavBar/LogoIsolated": {
     "role": "link",
     "aria-label": "brandName",
-    "description": "Logotipo interactivo que lleva a la página de inicio. Debe usar 'role=\"link\"' y 'aria-label=\"brandName\"' para anunciar claramente la acción."
+    "description": "Logotipo interactivo que lleva a la página de inicio.\nDebe usar 'role=\"link\"' y 'aria-label=\"brandName\"' para anunciar claramente la acción."
   },
   "Text": {
     "role": "No aplica",
@@ -27,17 +27,17 @@
   "Title": {
     "role": "heading",
     "aria-label": "textContent",
-    "description": "Usar 'textContent' solo si el texto no es visible. El nivel por defecto es 'h2', especificar con etiquetas HTML si es otro nivel."
+    "description": "Usar 'textContent' solo si el texto no es visible.\nEl nivel por defecto es 'h2', especificar con etiquetas HTML si es otro nivel."
   },
   "MenuMobile/Down": {
     "role": "presentation",
     "aria-label": "aria-hidden",
-    "description": "Elemento decorativo sin función ni información relevante. Debe ocultarse con 'aria-hidden=\"true\"'."
+    "description": "Elemento decorativo sin función ni información relevante.\nDebe ocultarse con 'aria-hidden=\"true\"'."
   },
   "ButtonDefault": {
     "role": "button",
     "aria-label": "Texto botón + contexto",
-    "description": "'aria-label' con 'buttonText' solo se usa si el texto del botón no es visible. Usa estados 'disabled', 'pressed' y anuncia cambios de estado mediante 'aria-live' si es necesario."
+    "description": "'aria-label' con 'buttonText' solo se usa si el texto del botón no es visible.\nUsa estados 'disabled', 'pressed' y anuncia cambios de estado mediante 'aria-live' si es necesario."
   },
   "FUTADefault": {
     "role": "No aplica",
@@ -47,7 +47,7 @@
   "LogoContainer": {
     "role": "presentation",
     "aria-label": "aria-hidden",
-    "description": "Contenedor estructural sin impacto visual ni funcional. Debe ocultarse con 'aria-hidden=\"true\"'."
+    "description": "Contenedor estructural sin impacto visual ni funcional.\nDebe ocultarse con 'aria-hidden=\"true\"'.\nMirar el siguiente nivel de anidación para asignar el label"
   },
   "brand": {
     "role": "No aplica",
@@ -60,14 +60,14 @@
     "description": "Cada indicador debe tener 'role=\"tab\"', un 'aria-label' descriptivo y usar 'aria-selected' para el estado activo."
   },
   "Slideshow": {
-    "role": "region",
-    "aria-label": "Carrusel",
-    "description": "Usar 'role=\"region\"' con 'aria-label' para describir claramente su función. Debe contener elementos con 'role=\"tablist\"'."
+    "role": "Region",
+    "aria-label": "Carrusel promocional",
+    "description": "Usar 'role=\"region\"' con 'aria-label' para describir claramente su función.\nDebe contener elementos con 'role=\"tablist\"'."
   },
   "ButtonOB": {
     "role": "button",
     "aria-label": "Acción + Contexto",
-    "description": "No requiere 'aria-label' si el texto visible es suficientemente descriptivo si no es así utilizar acción + contexto ejemplo acceder a pantalla de registro."
+    "description": "Requiere 'aria-label' si el texto visible no es claro.\nSi está deshabilitado, usar 'aria-disabled=true'"
   },
   "BottomGroup": {
     "role": "group",
@@ -77,17 +77,17 @@
   "LogInGroup": {
     "role": "group",
     "aria-label": "No aplica",
-    "description": "Agrupa texto y enlaces relacionados. Los enlaces deben usar 'role=\"link\"' con textos descriptivos claros."
+    "description": "Agrupa texto y enlaces relacionados.\nLos enlaces deben usar 'role=\"link\"' con textos descriptivos claros."
   },
   "InputTextDark": {
     "role": "textbox",
     "aria-label": "labelText",
-    "description": "'aria-describedby': 'supporting-text', 'ariaRequired': 'true', 'ariaInvalid': 'true/false'. Caso email: permite entrada de correo electrónico y anuncia errores con 'aria-invalid'. Caso contraseña: incluye icono interactivo con 'role=\"button\"', 'aria-label=\"passwordToggleState contraseña\"' y 'aria-pressed=\"true/false\"'."
+    "description": "'aria-describedby': 'supporting-text', 'ariaRequired': 'true', 'ariaInvalid': 'true/false'.\nCaso email: permite entrada de correo electrónico y anuncia errores con 'aria-invalid'.\nCaso contraseña: incluye icono interactivo con 'role=\"button\"', 'aria-label=\"passwordToggleState contraseña\"' y 'aria-pressed=\"true/false\"'."
   },
   "textField": {
     "role": "textbox",
     "aria-label": "No aplica",
-    "description": "Campo de texto genérico. Usa siempre una etiqueta asociada visible o un 'aria-label' si esta no es visible."
+    "description": "Campo de texto genérico.\nUsa siempre una etiqueta asociada visible o un 'aria-label' si esta no es visible."
   },
   "supporting-text": {
     "role": "note",
@@ -95,14 +95,14 @@
     "description": "Texto de ayuda asociado al campo mediante 'aria-describedby'."
   },
   "Canvas": {
-    "role": "{{landmarkRole}}",
+    "role": "{landmarkRole}",
     "aria-label": "No aplica",
-    "description": "Usa el role adecuado según su función en la estructura: 'banner' (encabezado global, por ejemplo header), 'navigation' (menús o navegación principal), 'main' (contenido principal, por ejemplo main), 'complementary' (contenido adicional, sidebars, widgets), o 'contentinfo' (pie de página con información global, por ejemplo footer)."
+    "description": "Usa el role adecuado según su función en la estructura: 'banner' (encabezado global, por ejemplo header). 'navigation' (menús o navegación principal). 'main' (contenido principal, por ejemplo main), 'complementary' (contenido adicional, sidebars, widgets). 'contentinfo' (pie de página con información global, por ejemplo footer)."
   },
   "StatusBar_Android": {
     "role": "No aplica",
     "aria-label": "No aplica",
-    "description": "Elemento nativo del móvil Android (hora, batería, red). No necesita etiquetado ni rol adicional."
+    "description": "Elemento nativo del móvil Android (hora, batería, red).\nNo necesita etiquetado ni rol adicional."
   },
   "NavBar/Logo": {
     "role": "banner",
@@ -112,11 +112,11 @@
   "Header": {
     "role": "banner",
     "aria-label": "No aplica",
-    "description": "Cabecera con título secundario (h2) y texto descriptivo. El título (h2) debe etiquetarse como encabezado y el texto adicional como párrafo (sin role específico, salvo casos excepcionales)."
+    "description": "El título H2 debe etiquetarse como encabezado y el texto adicional como párrafo sin role específico, salvo casos excepcionales."
   },
   "AvatarFilled": {
     "role": "button",
-    "aria-label": "userName",
+    "aria-label": "{userName}",
     "description": "El componente actúa como un botón y el lector de pantalla solo leerá el texto proporcionado en 'aria-label', ignorando cualquier contenido visual."
   },
   "GridLarge": {
@@ -127,14 +127,14 @@
   "Autoplay": {
     "role": "region",
     "aria-label": "Carrusel de contenido en directo",
-    "description": "Carrusel de contenido en directo con múltiples canales. Permite la navegación entre opciones disponibles."
+    "description": "Carrusel de contenido en directo con múltiples canales.\nPermite la navegación entre opciones disponibles."
   },
   "ContentImg": {
     "role": "img",
     "aria-label": "Vista previa del canal en directo",
     "description": "Imagen representativa del canal actualmente en reproducción."
   },
-  "BLUEHALO": {
+  "BLUE HALO": {
     "role": "presentation",
     "aria-label": "aria-hidden",
     "description": "Elemento decorativo sin contenido accesible."
@@ -152,32 +152,32 @@
   "CollectionTitle": {
     "role": "heading",
     "aria-label": "Título de la colección",
-    "description": "Bloque compuesto de un h2 y opcional un enlace role=link y el título role h2. Nota: en otros comoponentes es posible que invoque a través de arilabelby CollectionTitle "
+    "description": "Bloque compuesto de un h2 y opcional un enlace role=link y el título role h2.\nNota: en otros comoponentes es posible que invoque a través de arilabelby CollectionTitle "
   },
   "Small": {
     "role": "link",
     "aria-label": "",
-    "description": "Enlace para la opción Small. Si el enlace no es lo suficientemente descriptivo, usaremos aria-label."
+    "description": "Enlace para la opción Small.\nSi el enlace no es lo suficientemente descriptivo, usaremos aria-label acción + contexto ."
   },
   "XSmall": {
     "role": "link",
     "aria-label": "",
-    "description": "Enlace para la opción XSmall. Si el enlace no es lo suficientemente descriptivo, usaremos aria-label."
+    "description": "Enlace para la opción XSmall.\nSi el enlace no es lo suficientemente descriptivo, usaremos aria-label acción + contexto."
   },
   "Medium": {
     "role": "link",
     "aria-label": "",
-    "description": "Enlace para la opción Medium. Si el enlace no es lo suficientemente descriptivo, usaremos aria-label."
+    "description": "Enlace para la opción Medium.\nSi el enlace no es lo suficientemente descriptivo, usaremos aria-label acción + contexto."
   },
   "CarouselEditorial": {
     "role": "region",
     "aria-label": "Carrusel editorial",
-    "description": "Carrusel manual de contenido. Cada preview lleva el nombre de la película o serie, y un dato añadido que indica si es transaccional o no. El lector de pantalla anunciará la posición del contenido para saber cuántos contenidos hay en total."
+    "description": "Carrusel manual de contenido.\nCada preview lleva el nombre de la película o serie, y un dato añadido que indica si es transaccional o no.\nEl lector de pantalla anunciará la posición del contenido para saber cuántos contenidos hay en total."
   },
   "Landscape2Play": {
     "role": "list",
     "aria-label": "aria-labelledby CollectionTitle",
-    "description": "Carrusel de películas navegable. Asociado a 'CollectionTitle' mediante aria-labelledby. pUede contener diferentes tipos de previews como live, future, recording... ver el etiquetado de estas :)"
+    "description": "Carrusel de películas navegable.\nAsociado a 'CollectionTitle' mediante aria-labelledby. pUede contener diferentes tipos de previews como live, future, recording... ver el etiquetado de estas :)"
   },
   "Live": {
     "role": "group",
@@ -187,7 +187,7 @@
   "AutoplayPreview": {
     "role": "group",
     "aria-label": "En PreviewProviderLogo",
-    "description": "Solo se leen los iconos relevantes canal, si el contenido es transaccional y si es homebloking. Ejemplo Nombre canal, bajo suscripción, o nombre de canal disponible dentro de la red de tu hogar."
+    "description": "Solo se leen los iconos relevantes canal, si el contenido es transaccional y si es homebloking.\nEjemplo Nombre canal, bajo suscripción, o nombre de canal disponible dentro de la red de tu hogar."
   },
   "Component / Feedback / Rent": {
     "role": "none",
@@ -202,7 +202,7 @@
   "PreviewProviderLogo": {
     "role": "none",
     "aria-label": "EnchannelName",
-    "description": "Logo del canal. Si el nombre del canal está en inglés, establecer 'lang' en 'en'."
+    "description": "Logo del canal.\nSi el nombre del canal está en inglés, establecer 'lang' en 'en'."
   },
   "Metadata": {
     "role": "group",
@@ -212,7 +212,7 @@
   "TimelineContainer": {
     "role": "presentation",
     "aria-label": "aria-hidden",
-    "description": "Elemento decorativo. En el futuro mostrará el progreso de reproducción."
+    "description": "Elemento decorativo.\nEn el futuro mostrará el progreso de reproducción."
   },
   "Brick/Previews/Title Previews": {
     "role": "group",
@@ -222,22 +222,22 @@
   "Brick/Text/Preview Title": {
     "role": "heading",
     "aria-label": "formattedTitle",
-    "description": "Título del episodio. Se recomienda que el aria-label transforme nomenclaturas como 'T2P2 Mujeres desesperadas' en 'Temporada 2, Episodio 2, Mujeres desesperadas'. Este título debe ser un H3."
+    "description": "Título del episodio.\nSe recomienda que el aria-label transforme nomenclaturas como 'T2P2 Mujeres desesperadas' en 'Temporada 2, Episodio 2, Mujeres desesperadas'.\nEste título debe ser un H3."
   },
   "Secondary Info": {
     "role": "text",
     "aria-label": "Fecha y hora: timeRange",
-    "description": "Información secundaria con horario. Se debe indicar que es una fecha para que el lector de pantalla lo lea correctamente."
+    "description": "Información secundaria con horario.\nSe debe indicar que es una fecha para que el lector de pantalla lo lea correctamente."
   },
   "MenuLayout": {
     "role": "list",
     "aria-label": "Menú de navegación",
-    "description": "Contenedor principal del menú. Agrupa el perfil y las opciones del menú."
+    "description": "Contenedor principal del menú.\nAgrupa el perfil y las opciones del menú."
   },
-  "Content": {
+  "CONTENT": {
     "role": "group",
     "aria-label": "na",
-    "description": "Nota. Ops debería cambiar el nombre de esto. Agrupa la información del perfil y la lista de opciones del menú."
+    "description": "Nota.\nOps debería cambiar el nombre de esto.\nAgrupa la información del perfil y la lista de opciones del menú."
   },
   "Profile": {
     "role": "button",
@@ -252,7 +252,7 @@
   "Item": {
     "role": "listitem",
     "aria-label": "itemName, opción position de totalItems",
-    "description": "Elemento del menú. Indica su nombre, posición en la lista y el total de opciones disponibles. EN el caso de utilizar iconos que aparezcan en hiden, en esta ocasión son decorativos."
+    "description": "Elemento del menú.\nIndica su nombre, posición en la lista y el total de opciones disponibles.\nEN el caso de utilizar iconos que aparezcan en hiden, en esta ocasión son decorativos."
   },
   "Timeline+hour": {
     "role": "group",
@@ -262,12 +262,12 @@
   "TimelinePlayerPresets": {
     "role": "presentation",
     "aria-label": "aria-hidden",
-    "description": "Elemento visual que representa la barra de progreso. No es interactivo."
+    "description": "Elemento visual que representa la barra de progreso.\nNo es interactivo."
   },
   "Bubble": {
     "role": "slider",
     "aria-label": "Posición actual en la línea de tiempo",
-    "description": "Elemento interactivo para arrastrar y avanzar o retroceder en el tiempo del contenido. Usa 'aria-valuemin' en 0, 'aria-valuemax' en 'totalDuration' y 'aria-valuenow' en 'currentPosition' para indicar la posición actual."
+    "description": "Elemento interactivo para arrastrar y avanzar o retroceder en el tiempo del contenido.\nUsa 'aria-valuemin' en 0, 'aria-valuemax' en 'totalDuration' y 'aria-valuenow' en 'currentPosition' para indicar la posición actual."
   },
   "Time": {
     "role": "text",
@@ -287,7 +287,7 @@
   "ButtonIconOnly": {
     "role": "button",
     "aria-label": "buttonAction",
-    "description": "Botón interactivo que ejecuta la acción correspondiente. Puede contener 'PlayerIconFeedback', 'Player/Pause' u otros iconos de control."
+    "description": "Botón interactivo que ejecuta la acción correspondiente.\nPuede contener 'PlayerIconFeedback', 'Player/Pause' u otros iconos de control."
   },
   "PlayerIconFeedback": {
     "role": "button",
@@ -302,7 +302,7 @@
   "Player/Header": {
     "role": "group",
     "aria-label": "No aplica",
-    "description": "Agrupa el título del contenido y la barra de iconos del reproductor. Player/TitleLogo + Player/IconsBar."
+    "description": "Agrupa el título del contenido y la barra de iconos del reproductor.\nPlayer/TitleLogo + Player/IconsBar."
   },
   "Player/TitleLogo": {
     "role": "group",
@@ -312,22 +312,22 @@
   "Logos/CNN Internacional": {
     "role": "presentation",
     "aria-label": "aria-hidden",
-    "description": "Logo del canal. No es anunciado por el lector de pantalla, ya que la información ya está presente en el texto."
+    "description": "Logo del canal.\nNo es anunciado por el lector de pantalla, ya que la información ya está presente en el texto."
   },
   "Player/Title": {
     "role": "heading",
     "aria-label": "contentTitle",
-    "description": "Título del contenido. Debe ser un H2 para reflejar la jerarquía del contenido en la interfaz."
+    "description": "Título del contenido.\nDebe ser un H2 para reflejar la jerarquía del contenido en la interfaz."
   },
   "Player/ChannelInfo": {
     "role": "text",
     "aria-label": "Ahora en channelName, canal channelNumber en la guía",
-    "description": "Texto que indica el canal en el que se está transmitiendo el contenido. El número del canal debe ir acompañado de 'canal channelNumber en la guía' para mayor claridad."
+    "description": "Texto que indica el canal en el que se está transmitiendo el contenido.\nEl número del canal debe ir acompañado de 'canal channelNumber en la guía' para mayor claridad."
   },
   "Player/IconsBar": {
     "role": "region",
     "aria-label": "No aplica",
-    "description": "Agrupa los iconos de control del reproductor. Se deben leer en el orden natural."
+    "description": "Agrupa los iconos de control del reproductor.\nSe deben leer en el orden natural."
   },
   "Sound": {
     "role": "button",
@@ -357,11 +357,53 @@
   "Navigation/Close": {
     "role": "button",
     "aria-label": "Cerrar reproductor",
-    "description": "Permite cerrar el reproductor. En otros contextos, 'Cerrar' debe ir acompañado de la acción contextual, como cerrar un modal o un elemento emergente."
+    "description": "Permite cerrar el reproductor.\nEn otros contextos, 'Cerrar' debe ir acompañado de la acción contextual, como cerrar un modal o un elemento emergente."
   },
   "loginOidc": {
     "role": "N/A",
     "aria-label": "N/A",
-    "description": "H1 debe ser: En la página de acceso al servicio.\nOrden del foco natural.\n1- 'Header' LogoContainer.\n2- 'Slideshow'.\nContiene un H2.\n3- 'BottomGroup'.\nAgrupación de botón y texto legal."
-  }
+    "description": "H1: Pantalla de selección de perfil.\nOrden foco: Natural.\n1- 'Header' Elige tu perfil.\n2- 'GridLarge', orden del foco natural sobre los perfiles.\n3- 'Header' Elige tu perfil, foco en editar."
+  },
+  
+    "loginUserPassword": {
+      "role": "NA",
+      "aria-label": "NA",
+      "description": "H1: Pantalla de login o registro.\nOrden foco: Natural.\n1- 'LogoContainer'.\n2- 'LogIn4P' con un link.\n3- 'InputTextDark' para el mail.\n4- 'InputTextDark' para la contraseña.\n5- 'BottomGroup'."
+    },
+
+    "loginUserPassword": {
+      "role": "NA",
+      "aria-label": "NA",
+      "description": "H1: Pantalla de selección de perfil.\nOrden foco: Natural.\n1- 'Header' Elige tu perfil.\n2- 'GridLarge', orden del foco natural sobre los perfiles.\n3- 'Header' Elige tu perfil, foco en editar."
+    },
+    
+    "List": {
+      "role": "NA",
+      "aria-label": "NA",
+      "description": "H1: Página de selección del perfil {brand}.\nOrden foco: *desable:\n1- 'Header'.\n2- 'GridLarge'.\n3- 'Header', foco en el link 'Editar perfil'."
+    },
+
+    "Home": {
+      "role": "NA",
+      "aria-label": "NA",
+      "description": "H1: Página principal {brand}.\nOrden foco:\n1- 'NavBar/Logo'.\n2- 'Autoplay', foco en el canal.\n3- 'CarouselEditorial', leer 'aria-labelledby' del H2 de la fila.\n4- Siguientes bloques."
+    },
+
+    "PlayerControls": {
+      "role": "NA",
+      "aria-label": "NA",
+      "description": "H1: En la pantalla de reproducción.\nOrden foco:\n1- 'Player/Header' en 'Player/IconsBar', foco en el primer elemento de derecha a izquierda, el botón de cerrar.\n2- 'Controls'.\n3- 'TimelineComplete'.\n4- 'Player/TitleLogo'."
+    },
+
+    "LogIn4P": {
+      "role": "group",
+      "aria-label": "NA",
+      "description": "Caja que agrupa el texto '¿Aún no tienes cuenta?' con el link 'Regístrate aquí'.\n- El link debe tener role='link'."
+    },
+
+    "Autoplay": {
+      "role": "group",
+      "aria-label": "NA",
+      "description": "El foco debe aparecer en el canal en emisión.\nContiene: 'ContentImg' y 'CONTENT'.\nLa lectura debe ser: 'Ahora en directo {Contenido} en {Canal}, canal 1 de $'.\nSe trata de una lista de canales y cada uno debe tener role='button'."
+    }
 }
