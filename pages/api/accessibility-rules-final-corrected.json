@@ -50,9 +50,9 @@
     "description": "Contenedor estructural sin impacto visual ni funcional. Debe ocultarse con 'aria-hidden=\"true\"'."
   },
   "brand": {
-    "role": "No aplica",
-    "aria-label": "brandName",
-    "description": "Establecer 'aria-label' con 'brandName' solo si el texto visible no es suficientemente descriptivo."
+    "role": "N/A",
+    "aria-label": "N/A",
+    "description": "alt='{brandname}'"
   },
   "NavDots": {
     "role": "tablist",
