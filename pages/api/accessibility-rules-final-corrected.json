@@ -359,7 +359,7 @@
     "aria-label": "N/A",
     "description": "Si se encuentra dentro de un botón, el elemento es decorativo por lo que debemos usar hidden. El botón debe decir: Control de sonido. En caso de que vaya acompañado de texto, utilizarlo y verificar si es suficientemente explicativo."
   },
-  "loginOdic": {
+  "loginOidc": {
     "role": "N/A",
     "aria-label": "N/A",
     "description": "Página promocional previa a la introducción de credenciales o loginUserPassword. Orden del foco natural. 1- 'Header' LogoContainer contiene el H1. 2- 'Slideshow'. Contiene un H2. 3- 'BottomGroup'. Agrupación de botón y texto legal."
