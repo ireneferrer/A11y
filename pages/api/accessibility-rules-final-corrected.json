@@ -362,7 +362,7 @@
   "loginOidc": {
     "role": "N/A",
     "aria-label": "N/A",
-    "description": "Página promocional previa a la introducción de credenciales o loginUserPassword. Orden del foco natural. 1- 'Header' LogoContainer contiene el H1. 2- 'Slideshow'. Contiene un H2. 3- 'BottomGroup'. Agrupación de botón y texto legal."
+    "description": "H1 En la pantalla promocional.\n\nOrden del foco natural.\n\n1- 'Header' LogoContainer contiene el H1.\n\n2- 'Slideshow'.\n\nContiene un H2.\n\n3- 'BottomGroup'.\n\nAgrupación de botón y texto legal."
   },
   "EditSelect": {
     "role": "N/A",
