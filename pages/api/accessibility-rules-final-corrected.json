@@ -362,7 +362,7 @@
   "loginOidc": {
     "role": "N/A",
     "aria-label": "N/A",
-    "description": "H1 En la pantalla promocional.\n\nOrden del foco natural.\n\n1- 'Header' LogoContainer contiene el H1.\n\n2- 'Slideshow'.\n\nContiene un H2.\n\n3- 'BottomGroup'.\n\nAgrupación de botón y texto legal."
+    "description": "H1 En la pantalla promocional.\n\nOrden del foco natural.\n1- 'Header' LogoContainer.\n\n2- 'Slideshow'.\nContiene un H2.\n3- 'BottomGroup'.\n\nAgrupación de botón y texto legal."
   },
   "EditSelect": {
     "role": "N/A",
